@@ -1,0 +1,33 @@
+# RCV - archivos locales y datos
+
+# Bases de datos locales
+data/*
+!data/.gitkeep
+uploads/*
+!uploads/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backups y archivos clínicos
+backups/
+*.bak
+*.sql
+*.sql.gz
