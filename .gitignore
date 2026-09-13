@@ -13,6 +13,9 @@ uploads/*
 .env
 .env.*
 !.env.example
+*credentials*.json
+*service-account*.json
+*service_account*.json
 
 # Python
 __pycache__/
