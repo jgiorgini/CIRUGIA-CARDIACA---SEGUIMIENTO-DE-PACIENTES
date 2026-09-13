@@ -1,6 +1,6 @@
 # RCV – Recuperación Cardiovascular
 
-Versión piloto: `RCV-V1.0-PILOT-001`
+Versión piloto: `RCV-V1.0-PILOT-002`
 
 ## Objetivo
 Piloto funcional con datos ficticios o anonimizados. No utilizar con pacientes reales hasta contar con infraestructura, seguridad y aprobación institucional.
@@ -37,3 +37,8 @@ No subir al repositorio:
 
 ## Estado del proyecto
 La arquitectura actual mantiene el estado funcional del piloto en un registro JSON central. Es adecuada para pruebas con datos ficticios. Antes de producción multiusuario deberá migrarse a un modelo relacional con control de concurrencia, autenticación y auditoría por campo.
+
+## Versión actual
+`RCV-V1.0-PILOT-002`
+
+Incluye la actualización de la interfaz quirúrgica, validaciones de completitud/criticidad, ampliación de CRM, válvulas, ETE, CEC, soporte mecánico y generación/bloqueo del informe quirúrgico.
